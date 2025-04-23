@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Brief Toolbox RELACI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 40px;
+        }
+        form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 700px;
+            margin: auto;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        label {
+            font-weight: bold;
+        }
+        button {
+            background-color: #0066cc;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #004999;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://formsubmit.co/david.vilchez@relaci.lat" method="POST">
+        <h2>Brief para sesión Toolbox</h2>
+
+        <label>Nombre completo del ponente y pequeña bio:</label>
+        <textarea name="Nombre y bio" required></textarea>
+
+        <label>Subtítulo o foco temático:</label>
+        <textarea name="Subtítulo o foco temático" required></textarea>
+
+        <label>Objetivo de la sesión:</label>
+        <textarea name="Objetivo de la sesión" required></textarea>
+
+        <label>¿Qué subtemas, herramientas, marcos o metodologías se presentarán?</label>
+        <textarea name="Subtemas, herramientas, marcos o metodologías" required></textarea>
+
+        <label>¿Qué podrán aplicar las y los participantes luego de la sesión?</label>
+        <textarea name="Aplicabilidad para los participantes" required></textarea>
+
+        <label>¿Por qué esta sesión es relevante ahora?</label>
+        <textarea name="Relevancia actual" required></textarea>
+
+        <label>¿Hay datos o hallazgos que refuerzan su relevancia?</label>
+        <textarea name="Datos o hallazgos relevantes" required></textarea>
+
+        <label>¿Quiénes no deberían perdérsela?</label>
+        <textarea name="Audiencia clave" required></textarea>
+
+        <label>Ejemplos o casos prácticos que se mostrarán:</label>
+        <textarea name="Ejemplos o casos prácticos"></textarea>
+
+        <label>Materiales de apoyo:</label>
+        <textarea name="Materiales de apoyo"></textarea>
+
+        <label>¿Hay algo que no debamos decir o prometer en la comunicación?</label>
+        <textarea name="Advertencias o palabras a evitar"></textarea>
+
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_language" value="es">
+
+        <button type="submit">Enviar brief</button>
+    </form>
+</body>
+</html>
